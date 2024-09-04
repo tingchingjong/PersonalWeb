@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ting Ching Jong - Software Engineer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            padding: 60px;
+            background-color: peachpuff;
+            color: #333333;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #00C4FF;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            object-fit: cover; /* Crop the image to fit the circle */
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.4em;
+            color: #666666;
+        }
+
+        /* Navigation styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            background-color: #333333;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 12px 25px;
+            background-color: #00C4FF;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #FFC107;
+        }
+
+        /* Sections styling */
+        section {
+            padding: 40px 20px;
+            margin: 30px;
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #00C4FF;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skills div {
+            flex-basis: 45%;
+            margin-bottom: 20px;
+        }
+
+        /* Slideshow styling */
+        .slideshow-container {
+            position: relative;
+            max-width: 40%;
+            max-height: 500px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+        }
+
+        .mySlides {
+            display: none;
+            text-align: center;
+        }
+
+        .mySlides img {
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+            object-fit: contain; /* Ensure the image is fully visible without cropping */
+            border-radius: 15px;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        /* Contact section styling */
+        section#contact p, section#contact a {
+            font-size: 1.3em;
+            text-align: center;
+            display: block;
+            margin: 10px 0;
+        }
+
+        section#contact a {
+            color: #00C4FF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        section#contact a:hover {
+            color: #FFC107;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        footer p {
+            color: #FFC107;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="/img/PersonalImg.jpg" alt="Ting Ching Jong Photo">
+    <h1>Ting Ching Jong</h1>
+    <p>Software Engineer - P1</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#me">ME</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#accomplishments">Accomplishments</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated software engineer with a strong foundation in Java development, specializing in Spring Boot, MySQL, and Linux. With 2 years of hands-on experience, I've successfully delivered robust and scalable solutions in various projects, particularly within the financial sector. My work involves closely collaborating with stakeholders to understand and fulfill user requirements, ensuring the delivery of high-quality software products.</p>
+    <p>Currently, I am pursuing a part-time Master's in Software Engineering at the National University of Singapore (NUS) to deepen my technical expertise and stay at the forefront of industry advancements. Alongside my academic pursuits, I've also completed AWS certification courses, including Architect and Developer Associate levels, which have equipped me with a solid understanding of cloud computing and modern development practices.</p>
+    <p>I am passionate about continuous learning and thrive in dynamic environments where I can apply my skills to solve complex problems and contribute to innovative solutions. My goal is to leverage my technical background to drive impactful projects that align with business goals and user needs.</p>
+</section>
+
+<section id="me">
+    <h2>ME</h2>
+    <p style="text-align: center;">The main hobby I have is gaming, pet and travelling.</p>
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img src="/img/gaming.jpg" alt="Hobby Photo 1">
+        </div>
+
+        <div class="mySlides">
+            <img src="/img/Doubi.jpg" alt="Hobby Photo 2">
+        </div>
+
+        <div class="mySlides">
+            <img src="/img/Travel.jpg" alt="Hobby Photo 3">
+        </div>
+
+        <!-- Add more slides as needed -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Work Experience</h2>
+    <ul>
+        <li><strong>Software Engineer, NCS Group Pte Ltd, Singapore</strong> <em>(Sep 2022 - Current)</em>
+            <ul>
+                <li>Working in the Singapore Central Real-time Integrated Payment and Securities settlement system (SCRIPS) under MAS.</li>
+                <li>Building batch jobs using Spring Boot and SQL to replicate massive transaction data daily.</li>
+                <li>Data Migration and Maven Upgrade.</li>
+            </ul>
+        </li>
+        <li><strong>Software Engineer (Full Stack) Intern, Nettium Sdn Bhd, Kuala Lumpur, MY</strong> <em>(Jan 2022 - June 2022)</em>
+            <ul>
+                <li>Worked in Agile, Scrum development process using ASP.NET C#/SQL/React.js.</li>
+                <li>Built admin panels based on user requirements and collaborated with cross-functional teams.</li>
+            </ul>
+        </li>
+        <li><strong>NFT Investor, Freelance, Kuala Lumpur, MY</strong> <em>(Oct 2021 - Dec 2022)</em>
+            <ul>
+                <li>Managed players and provided guidance to ensure consistent earnings in NFT games like "Axie Infinity".</li>
+                <li>Developed strategies and solutions to maximize in-game performance and rewards.</li>
+            </ul>
+        </li>
+        <li><strong>Freelance Software Developer, Kuala Lumpur, MY</strong> <em>(May 2020 - Dec 2021)</em>
+            <ul>
+                <li>Developed various web applications including a Music Streaming app, Restaurant Reservation System, and an E-commerce website.</li>
+                <li>Utilized technologies like Java, Spring Boot, and SQL for backend development, and HTML, CSS, JavaScript for frontend.</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Music Streaming Mobile Application</strong> - A Kotlin-based school project allowing users to register and save music like Spotify.</li>
+        <li><strong>Restaurant Reservation System</strong> - A final year project in C# ASP.NET Core MVC for online food ordering and reservations.</li>
+        <li><strong>Fashion E-Commerce Website System</strong> - An online shopping platform with an integrated payment gateway.</li>
+        <li><strong>Live Chat and Draw and Guess Website</strong> - A real-time interactive game with chat functionality.</li>
+        <li><strong>AI Chatbot System</strong> - An AI-driven chatbot for customer support and inquiries.</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>National University of Singapore (NUS), Singapore</strong> <em>(Sep 2022 - Present)</em>
+            <ul>
+                <li>Master of Software Engineering (Part-Time)</li>
+                <li>AWS Certified Solutions Architect - Associate</li>
+                <li>AWS Certified Developer - Associate</li>
+            </ul>
+        </li>
+        <li><strong>Tunku Abdul Rahman University College (TARUC), Kuala Lumpur, MY</strong> <em>(Jun 2020 - Jun 2022)</em>
+            <ul>
+                <li>Bachelor of Information Technology (Honors) in Internet Technology</li>
+                <li>Dean’s List High Honor - GPA: 3.5/4.0</li>
+            </ul>
+        </li>
+        <li><strong>Tunku Abdul Rahman University College (TARUC), Kuala Lumpur, MY</strong> <em>(May 2018 - May 2020)</em>
+            <ul>
+                <li>Diploma in Science (Internet Technology)</li>
+                <li>Grade: CGPA 3.4/4.0</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills & Specializations</h2>
+    <div class="skills">
+        <div>
+            <h3>Frontend</h3>
+            <ul>
+                <li>VueJS (JavaScript), ReactJS (TypeScript)</li>
+                <li>HTML/CSS, TailwindCSS, Bootstrap</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Backend</h3>
+            <ul>
+                <li>Spring Boot (Java), ASP.NET C#, NodeJS, ExpressJS</li>
+                <li>MySQL, PostgreSQL, Google Firebase (NoSQL)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Cloud & DevOps</h3>
+            <ul>
+                <li>AWS Certified Solutions Architect</li>
+                <li>AWS Certified Developer</li>
+                <li>Git, CI/CD, Docker</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Languages</h3>
+            <ul>
+                <li>Native in Chinese (Mandarin & Cantonese)</li>
+                <li>Fluent in English and Malay</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+        <li>AWS Certified Solutions Architect - Associate</li>
+        <li>AWS Certified Developer - Associate</li>
+    </ul>
+</section>
+
+<section id="accomplishments">
+    <h2>Accomplishments & Leadership</h2>
+    <ul>
+        <li>Won Consolation Prize in the Web Design Competition of Agro-Food Information Toolbox by Malaysia Productivity Corporation (MPC).</li>
+        <li>Active participant in various web development competitions and technical challenges.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at: <a href="mailto:tcj.ik0305@gmail.com" style="color: #00C4FF;">tcj.ik0305@gmail.com</a></p>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/tcjik" target="_blank" style="color: #FFC107;">LinkedIn</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Ting Ching Jong. All rights reserved.</p>
+</footer>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+</script>
+
+</body>
+</html>
